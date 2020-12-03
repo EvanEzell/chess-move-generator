@@ -98,8 +98,6 @@ long push_promote(int from, int to, int type, int depth) {
 
 /* push move onto move stack */
 long push_move(int from, int to, int type, int depth) {
-    //printf("Push Move: (from = %d, to = %d, type = %d)\n", from, to, type);
-
     move m;
     past_move pm;
     long count;
